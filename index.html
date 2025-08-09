@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temparature Program</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<h1 class="heading">Temparature Converstion </h1>
+		<input type="number" id="textbox"><br>
+		<input type="radio" class="radin" name='radio' id="celtof">
+		<label for="celtof">Celsius ⇒  Fahrenheit</label><br>
+		<input type="radio" class="radin" name='radio' id="fahtoc">
+		<label for="fahtoc">Fahrenheit ⇒  Celsius</label><br>
+		<button id="mybtn" onclick="convert()">Calculate</button><br>
+		 <!-- <button onclick="location.reload()">Clear</button> -->
+
+		<div class="result-box">
+			<p id="result">Select a unit</p>
+		</div>
+		
+
+
+
+	</form>
+	<script src="src.js"></script>
+
+</body>
+</html>
